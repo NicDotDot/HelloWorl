@@ -1,2 +1,22 @@
+#cmd Win7
+#cd c:\Sub\SubDirectory\...\
+#python.py
+#or
+#c:\Sub\SubDirectory\...\python.py
+
+
 #Hello World
-Hello World
+print "Hello World"
+name = input("Your name?")
+print('Hello ' + name)
+
+
+#img = Image.open(TheCat.jpg)
+#img.show()
+
+import os
+#os.system('start c:\Sub\SubDirectory\...\TheCat.jpg')
+os.system('start TheCat.jpg')
+
+input()
+input()
